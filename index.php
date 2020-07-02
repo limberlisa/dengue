@@ -4,7 +4,7 @@
 //Header( "Location: https://freelancermasterdirecto.blogspot.com/");
 //Header( "Location: https://www.google.com");
 $domain = $_SERVER['HTTP_HOST'];
-echo $domain;
+echo "https://".$domain;
 
 
 ?>
